@@ -1,0 +1,45 @@
+/*Margen de boton eliminar*/
+.remove-btn {
+    margin-right: 0.5em;    
+}
+
+/*CSS para fade effect*/
+.fade-enter {
+    opacity: 0.01;
+}
+
+.fade-enter-active {
+    opacity: 1;
+    transition: opacity 1000ms ease-in;
+}
+
+.fade-exit {
+    opacity: 1;
+}
+
+.fade-exit-active {
+    opacity: 0.01;
+    transition: opacity 1000ms ease-in;
+}
+
+.page {
+    margin: 20px;
+  }
+   
+  .interactions {
+    text-align: center;
+  }
+   
+  .list {
+    margin: 20px 0;
+  }
+   
+  .list-row {
+    display: flex;
+    line-height: 24px;
+    white-space: nowrap;
+    margin: 10px 0;
+    padding: 10px;
+    background: #ffffff;
+    border: 1px solid #e3e3e3;
+  }
